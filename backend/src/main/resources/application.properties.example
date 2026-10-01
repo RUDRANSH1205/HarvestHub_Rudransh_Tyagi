@@ -1,0 +1,13 @@
+spring.application.name=harvesthub-backend
+
+server.port=8080
+
+spring.data.mongodb.uri=YOUR_MONGODB_ATLAS_CONNECTION_STRING
+spring.data.mongodb.auto-index-creation=true
+
+app.jwt.secret=YOUR_JWT_SECRET
+app.jwt.expiration-ms=86400000
+
+app.cors.allowed-origins=http://localhost:3000
+
+app.seed-demo-data=true

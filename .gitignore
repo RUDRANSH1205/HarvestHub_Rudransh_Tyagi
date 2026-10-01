@@ -1,0 +1,47 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Backend
+backend/target/
+
+# Secrets
+backend/src/main/resources/application.properties
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+# Node.js dependencies and build files
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+
+# Maven build files
+target/
+**/target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Backend secrets
+backend/src/main/resources/application.properties
+
+# Environment files
+.env
+.env.*
+!.env.example
